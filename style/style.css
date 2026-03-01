@@ -210,3 +210,31 @@ main section{
     font-size: 20px;
     margin-bottom: 20px;
 }
+
+footer{
+    display: flex;
+    padding: 130px 230px;
+    gap: 100px;
+}
+
+.footer-column{
+    width: 50%;
+}
+
+footer input[type="text"], footer textarea{
+    height: 60px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 18px 30px;
+    margin-bottom: 24px;
+    border: none;
+    color: #757575;
+    font-size: 18px;
+}
+
+footer .connect{
+    font-size: 18xp;
+    margin-bottom: 30px;
+}
