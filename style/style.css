@@ -365,3 +365,14 @@ footer .connect{
         width: 100%;
     }
 }
+
+/* Hover */
+.skill:hover{
+    transform:translateY(-8px);
+    transition:0.3s;
+}
+
+.btn-primary:hover{
+    background:#cf5503;
+    cursor:pointer;
+}
