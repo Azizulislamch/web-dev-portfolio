@@ -217,32 +217,51 @@ main section{
     margin-bottom: 20px;
 }
 
-footer{
+footer {
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    padding: 130px 0;
+}
+
+footer .footer-container {
+
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
     display: flex;
-    padding: 130px 230px;
-    gap: 100px;
+    gap: 116px;
 }
 
-.footer-column{
-    width: 50%;
+.footer-container h2 {
+    color: #181818;
+    font-size: 35px;
+    margin-bottom: 20px;
 }
 
-footer input[type="text"], footer textarea{
-    height: 60px;
-    border-radius: 5px;
-    background-color: white;
-    display: block;
-    width: 100%;
-    padding: 18px 30px;
+.footer-container .social {
+    max-width: 562px;
+}
+
+.footer-container .social p {
+    color: #474747;
+    line-height: 28px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.footer-container .icons a {
+    margin-right: 24px;
+}
+
+.footer-container form input[type="text"],
+.footer-container form textarea {
+    width: 461px;
+    padding: 18px 31px;
     margin-bottom: 24px;
     border: none;
-    color: #757575;
-    font-size: 18px;
-}
+    border-radius: 5px;
 
-footer .connect{
-    font-size: 18px;
-    margin-bottom: 30px;
+    color: #757575
 }
 
 
