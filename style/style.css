@@ -312,3 +312,56 @@ footer .connect{
     }
 
 }
+
+
+/* ===============================
+   Tablet Devices
+================================ */
+
+@media screen and (min-width:577px) and (max-width:992px){
+
+    nav{
+        margin: 30px 50px;
+    }
+
+    .banner{
+        flex-direction: column;
+        margin: 40px;
+        text-align: center;
+    }
+
+    .profile{
+        width: 400px;
+    }
+
+    .about{
+        padding: 60px 40px;
+    }
+
+    .about-items{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .skill-container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .skill{
+        width: 45%;
+    }
+
+    .resume-container{
+        flex-direction: column;
+    }
+
+    footer{
+        padding: 80px 60px;
+        flex-direction: column;
+    }
+
+    .footer-column{
+        width: 100%;
+    }
+}
