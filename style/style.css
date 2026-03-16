@@ -314,6 +314,10 @@ footer {
         text-align:center;
     }
 
+    .banner .btn-primary {
+        margin: 10px;
+    }
+
     .about-items{
         flex-direction: column;
         gap: 10px;
