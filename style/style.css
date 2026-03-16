@@ -387,6 +387,10 @@ footer {
         font-size: 30px;
     }
 
+    .banner .btn-primary {
+        margin: 10px;
+    }
+
     .about{
         padding: 40px 20px;
     }
